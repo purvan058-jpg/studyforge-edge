@@ -1,0 +1,20 @@
+PROJECT TITLE
+StudyForge Edge — Private On-Device AI Study Copilot
+
+SHORT PROJECT DESCRIPTION (under 500 characters)
+StudyForge Edge is a privacy-first AI study copilot designed for Snapdragon-powered Windows PCs. It converts lecture PDFs into exam-focused summaries, practice quizzes, revision plans and grounded Q&A using a local AI model through Qualcomm GenieX. The core workflow is designed to keep study material on-device, reducing cloud dependency while demonstrating practical NPU-powered generative AI.
+
+GITHUB REPOSITORY LINK
+Create your own GitHub repository and paste its URL here. Do not submit a placeholder URL.
+
+BRIEF PROJECT DESCRIPTION
+Upload: Brief_Project_Description.docx
+
+SHORT PITCH PRESENTATION IN PDF
+Upload: StudyForge_Edge_Pitch.pdf
+
+SHORT PITCH PRESENTATION IN PPT
+Upload: StudyForge_Edge_Pitch.pptx
+
+ELIGIBILITY / SNAPDRAGON LAPTOP
+Answer truthfully. Do not claim ownership/use of a Snapdragon-powered laptop if you do not actually meet the requirement.

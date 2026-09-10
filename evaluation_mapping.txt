@@ -1,0 +1,22 @@
+EVALUATION MAPPING
+
+Technical Implementation
+• Local OpenAI-compatible inference through GenieX.
+• Qualcomm AI Hub model integration.
+• Modular Streamlit application with a clean inference adapter.
+• Designed for Snapdragon Windows ARM64.
+
+Application Use Case & Innovation
+• Solves a frequent student workflow rather than offering open-ended chat.
+• One document becomes summary + quiz + revision plan + grounded Q&A.
+• Privacy is a product feature: study material remains local.
+
+Deployment & Accessibility
+• Lightweight Python UI.
+• Local endpoint architecture reduces cloud dependency.
+• Can be packaged as a Windows application after validation.
+• Designed for Snapdragon X-series PCs.
+
+Presentation & Documentation
+• 10-slide pitch structure.
+• README, setup script, architecture and evaluation plan included.

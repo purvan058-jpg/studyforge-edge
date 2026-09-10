@@ -1,0 +1,42 @@
+STUDYFORGE EDGE
+Private On-Device AI Study Copilot for Snapdragon PCs
+
+1. Problem
+Students routinely paste lecture notes into cloud AI tools to summarize material, generate questions and plan revision. This creates privacy concerns, depends on connectivity, and adds latency for repeated study tasks.
+
+2. Solution
+StudyForge Edge is a privacy-first study copilot designed to run the AI workload locally on Snapdragon-powered Windows PCs. A student drops in lecture notes and receives an exam-focused summary, quiz, revision plan and concept explanations without sending the study material to a cloud LLM.
+
+3. Snapdragon AI
+The prototype is designed around Qualcomm GenieX and a Qualcomm AI Hub model such as Qwen3-4B-Instruct-2507. GenieX exposes a local OpenAI-compatible endpoint, allowing the application layer to remain lightweight while inference is performed locally. The architecture is intended for Snapdragon X-series NPU execution.
+
+4. User flow
+Upload PDF → extract notes locally → send prompt to local model → generate study output → save/use locally.
+
+5. Differentiation
+The key value is not another generic chatbot: StudyForge turns one source document into a complete study workflow while keeping the source material on-device. It is optimized around a repeatable student workflow: understand → practice → revise.
+
+6. MVP
+- PDF ingestion
+- Local LLM summary
+- Exam-question generation
+- 3-day revision plan
+- Grounded Q&A over uploaded notes
+- Local-only architecture
+
+7. Future extensions
+- Multimodal diagram understanding with a Qualcomm AI Hub VLM
+- Local speech input with a Qualcomm AI Hub Whisper model
+- Adaptive difficulty based on quiz performance
+- NPU latency/energy dashboard
+- Offline desktop packaging
+
+8. Success metrics to measure on the target Snapdragon PC
+- End-to-end response time
+- First-token latency
+- CPU/GPU/NPU utilization
+- Memory footprint
+- Quality of generated questions
+- Percentage of workflows completed without network access
+
+No performance number should be claimed until measured on the final target device.
